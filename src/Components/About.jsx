@@ -24,19 +24,23 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I'm studying at Vellore Institute of Technology Chennai. I'm delving into a wide range of tech fields. From server management to network security, bash scripting to IoT device protection, my expertise covers diverse areas. Specializing in ethical hacking and RF engineering, I aim to create innovative, user-friendly solutions driven by simplicity and creativity.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Server Administration",
+  "Network Security",
+  "Bash Scripting",
+  "Embedded Linux",
+  "Hardware Hacking",
+  "Wardriving",
+  "Ethical Hacking",
+  "IoT Device Security",
+  "Gerber File Interpretation",
+  "Radio Frequency (RF) Engineering",
 ];
 
 /**
@@ -45,7 +49,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I am passionate about solving problems in new creative ways to drive innovation. Leveraging my skills in server administration, network security, bash scripting, embedded Linux, hardware hacking, wardriving, ethical hacking, IoT device security, gerber file interpretation, and radio frequency (RF) engineering, I continually strive to find new and better ways to make technology accessible to all through my UI/UX experience.";
 
 const About = () => {
   return (

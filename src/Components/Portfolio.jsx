@@ -30,30 +30,23 @@ const imageAltText = "desktop with books and laptop";
  * links section. Below is a sample, update to reflect links you'd like to highlight.
  */
 const projectList = [
-  {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
-    description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
-  },
-  {
-    title: "Web Development for Beginners",
-    description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
-  },
-  {
-    title: "My Resume Site",
-    description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
-  },
-  {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
-  },
+  [
+    {
+      "title": "eBraille-Vision Braille Display",
+      "description": "A device tailored for the visually impaired, providing an intuitive and tactile interface for accessing digital content. It offers multiple connectivity options, including Bluetooth and USB, ensuring seamless integration with computers, smartphones, and tablets.",
+      "url": "https://github.com/itsvenu22/eBraille-Vision"
+    },
+    {
+      "title": "Door Log Alert System",
+      "description": "An all-in-one solution for monitoring and managing door access effortlessly. With this system, you can track every door access event, create detailed logs, and receive instant alerts when something requires your attention.",
+      "url": "https://github.com/itsvenu22/Door-Log-Alert-System"
+    },
+    {
+      "title": "RFID-ClubConnectPro",
+      "description": "An exciting and versatile solution designed to supercharge attendance tracking for clubs and organizations. This system harnesses the power of RFID (Radio-Frequency Identification) technology to elegantly record attendance.",
+      "url": "https://github.com/itsvenu22/RFID-ClubConnectPro"
+    }
+  ]
 ];
 
 const Portfolio = () => {
