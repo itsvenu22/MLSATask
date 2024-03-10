@@ -30,7 +30,6 @@ const imageAltText = "desktop with books and laptop";
  * links section. Below is a sample, update to reflect links you'd like to highlight.
  */
 const projectList = [
-  [
     {
       "title": "eBraille-Vision Braille Display",
       "description": "A device tailored for the visually impaired, providing an intuitive and tactile interface for accessing digital content. It offers multiple connectivity options, including Bluetooth and USB, ensuring seamless integration with computers, smartphones, and tablets.",
@@ -45,8 +44,7 @@ const projectList = [
       "title": "RFID-ClubConnectPro",
       "description": "An exciting and versatile solution designed to supercharge attendance tracking for clubs and organizations. This system harnesses the power of RFID (Radio-Frequency Identification) technology to elegantly record attendance.",
       "url": "https://github.com/itsvenu22/RFID-ClubConnectPro"
-    }
-  ]
+    },
 ];
 
 const Portfolio = () => {
